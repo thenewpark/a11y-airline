@@ -40,3 +40,19 @@
   background-color: white;
   text-align: center;
 }
+
+.skipLink {
+  position: absolute;
+  overflow: hidden;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+}
+
+.skipLink:focus {
+  top: 0px;
+  left: 0px;
+  width: auto;
+  height: auto;
+}
